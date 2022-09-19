@@ -38,6 +38,11 @@ UGEN is trained on MixATIS_clean and MixSNIP_clean, respectively.
 T5-base is used as backbone.
 ```
 
+### install
+```shell
+pip install -r requirements.txt
+```
+
 ### train
 - UGEN for full-data
 
@@ -45,8 +50,11 @@ T5-base is used as backbone.
 sh train_qa.sh qa_full
 ```
 
-### evaluate
-```shell
-sh train.sh
-```
+[comment]: <> (### evaluate)
+
+[comment]: <> (```shell)
+
+[comment]: <> (sh train.sh)
+
+[comment]: <> (```)
 
