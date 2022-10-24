@@ -95,6 +95,12 @@ if __name__ == '__main__':
     set_seed(args.random_seed)
 
     print('load dataset ...')
+    # update file name
+    if 'MixATIS' in args.dataset_name:
+        args.train_file = os.path.join('./data', args.dataset_dir,'train.txt')
+        args.valid_file = os.path.join('./data', args.dataset_dir,'dev.txt')
+        args.test_file = os.path.join('./data', args.dataset_dir, 'test.txt')
+
     intent_list = json.load(
         open(os.path.join('./data/', args.dataset_dir, "intent.json")))  # ./data/MixSNIPS_clean/intent.json
     slot_list = json.load(open(os.path.join('./data/', args.dataset_dir, "slot.json")))

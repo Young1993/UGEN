@@ -13,16 +13,16 @@ base_config = {
         "question_valid": [1, 2, 3, 4, 5]
     },
     "MixATIS": {
-        "full_data": False,
+        "full_data": True,
         "step": 500,
         "MAX_LEN_Q": 610,  # 256
         "MAX_LEN_A": 220,  # 110
         "k_sample": 5,  # 5 10 78
-        "question_num": 6,
+        "question_num": 5,
         "slot_type": 78,
         "intent_label_length": 13,
         "slot_input_maxlength": 112,
         "slot_label_length": 20,
-        "question_valid": [1, 3, 4, 5]
+        "question_valid": [1, 2, 3, 4, 5]
     }
 }
