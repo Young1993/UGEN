@@ -65,7 +65,7 @@ pip install -r requirements.txt
   UGEN for full-data 
 
 ```shell
-sh train_qa.sh qa_full MixSNIP MixSNIP_clean
+sh train_qa.sh qa_full MixSNIPS MixSNIPS_clean
 ```
 
 - Example on MixATIS
